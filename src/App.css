@@ -263,6 +263,17 @@ p {
   gap: 1rem;
 }
 
+.nav-link {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.nav-link:focus {
+  outline: none;
+}
+
 .theme-toggle {
   background: none;
   border: none;

@@ -3,11 +3,11 @@ import { FaCode, FaServer, FaDatabase } from 'react-icons/fa';
 
 const About: React.FC = () => {
   const frontendSkills = [
-    'Angular', 'React', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3'
+    'Angular', 'React', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'Material UI', 'Bootstrap', 'Tailwind CSS'
   ];
 
   const backendSkills = [
-    'ASP.NET Core', 'C#', 'Node.js', 'SignalR', 'Socket.io'
+    'ASP.NET Core', 'C#', 'Node.js', 'Express.js', 'SignalR', 'Socket.io'
   ];
 
   const databaseSkills = [
@@ -15,7 +15,7 @@ const About: React.FC = () => {
   ];
 
   const tools = [
-    'Git', 'GitHub', 'Visual Studio', 'VS Code', 'Postman', 'Docker'
+    'Git', 'GitHub', 'Visual Studio', 'VS Code', 'Postman'
   ];
 
   return (
@@ -31,34 +31,35 @@ const About: React.FC = () => {
             <div className="about-card">
               <h3>My Journey</h3>
               <p>
-                I'm a passionate Full Stack Web Developer with expertise in modern web technologies. 
-                During my 6-month internship at <strong>Tatvasoft</strong>, I gained hands-on experience 
-                building real-time applications including a comprehensive Pizza Shop system and a 
-                Course Management platform.
+                I'm a dedicated Full Stack Developer with a strong foundation in modern web technologies. 
+                During my internship at <strong>Tatvasoft</strong>, I worked on real-time applications, 
+                including a dynamic Pizza Shop system and a full-featured Course Management platform.
               </p>
               <p>
-                I love creating efficient, scalable solutions and staying up-to-date with the latest 
-                technologies in web development. My goal is to build applications that not only meet 
-                technical requirements but also provide exceptional user experiences.
+                I’m passionate about building clean, scalable, and user-centric solutions while continuously 
+                exploring new tools and frameworks. My goal is to develop applications that are not only technically sound 
+                but also deliver seamless user experiences.
               </p>
             </div>
 
+
             <div className="experience-card">
-              <h3>Experience Highlights</h3>
-              <div className="experience-item">
-                <div className="experience-header">
-                  <h4>Full Stack Developer Intern</h4>
-                  <span className="experience-duration">6 Months</span>
-                </div>
-                <p className="experience-company">Tatvasoft</p>
-                <ul className="experience-details">
-                  <li>Developed real-time Pizza Shop management system</li>
-                  <li>Built comprehensive Course Management platform</li>
-                  <li>Implemented real-time features using SignalR</li>
-                  <li>Worked with MERN stack and .NET Core</li>
-                </ul>
+            <h3>Experience Highlights</h3>
+            <div className="experience-item">
+              <div className="experience-header">
+                <h4>Software Developer Intern</h4>
+                {/* <span className="experience-duration">6 Months</span> */}
               </div>
+              <p className="experience-company">Tatvasoft</p>
+              <ul className="experience-details">
+                <li>Designed and developed a real-time Pizza Shop management system with inventory and order tracking features</li>
+                <li>Created a full-fledged Course Management platform with authentication and role-based access</li>
+                <li>Implemented real-time communication using <strong>SignalR</strong> for seamless user interaction</li>
+                <li>Worked extensively with the <strong>Angular</strong> and <strong>.NET Core</strong> in a structured, team-based environment</li>
+              </ul>
             </div>
+          </div>
+
           </div>
 
           <div className="skills-section">

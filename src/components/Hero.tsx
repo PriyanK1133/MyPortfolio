@@ -30,26 +30,27 @@ const Hero: React.FC = () => {
             <h1 className="hero-title">
               <span className="highlight">Priyank Chauhan</span>
             </h1>
-            <h2 className="hero-subtitle">Full Stack Web Developer</h2>
+            <h2 className="hero-subtitle">Full Stack Developer</h2>
             <p className="hero-description">
-              Passionate about creating innovative web applications using modern technologies like 
+              I’m a passionate full-stack developer focused on crafting innovative and scalable web applications using modern technologies like 
               <span className="tech-highlight"> Angular</span>, 
               <span className="tech-highlight"> React</span>, 
-              <span className="tech-highlight"> .NET Core</span>, and the 
+              <span className="tech-highlight"> ASP.NET</span>, and the 
               <span className="tech-highlight"> MERN stack</span>. 
-              I specialize in building scalable, real-time applications with clean, efficient code.
+              I specialize in building real-time, performance-driven solutions with clean and maintainable code.
             </p>
+
             <div className="hero-stats">
               <div className="stat">
-                <span className="stat-number">6+</span>
-                <span className="stat-label">Months Experience</span>
+                <span className="stat-number">3+</span>
+                <span className="stat-label">Years Experience</span>
               </div>
               <div className="stat">
                 <span className="stat-number">10+</span>
                 <span className="stat-label">Technologies</span>
               </div>
               <div className="stat">
-                <span className="stat-number">3+</span>
+                <span className="stat-number">4+</span>
                 <span className="stat-label">Major Projects</span>
               </div>
             </div>

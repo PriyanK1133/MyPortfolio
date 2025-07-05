@@ -83,7 +83,7 @@ const Contact: React.FC = () => {
                   <FaMapMarkerAlt className="contact-icon" />
                   <div>
                     <h4>Location</h4>
-                    <p>India</p>
+                    <p>Ahmedabad, Gujarat, India</p>
                   </div>
                 </div>
               </div>

@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
               <h3 onClick={scrollToTop} className="footer-logo">
                 Priyank<span className="logo-dot">.</span>
               </h3>
-              <p>Full Stack Web Developer passionate about creating innovative solutions</p>
+              <p>Full Stack Developer passionate about creating innovative solutions</p>
             </div>
 
             <div className="footer-links">
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
             <div className="footer-divider"></div>
             <div className="footer-bottom-content">
               <p>
-                © {currentYear} Priyank Chauhan. Made with <FaHeart className="heart" /> using React & TypeScript
+                © {currentYear} Priyank Chauhan. Made with using React & TypeScript
               </p>
               <p className="footer-note">
                 Available for freelance opportunities

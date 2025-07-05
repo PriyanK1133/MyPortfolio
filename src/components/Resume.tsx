@@ -31,7 +31,7 @@ const Resume: React.FC = () => {
                   <FaCertificate />
                 </div>
                 <h3>Priyank Chauhan</h3>
-                <p>Full Stack Web Developer</p>
+                <p>Full Stack Developer</p>
               </div>
 
               <div className="resume-highlights">
@@ -39,7 +39,7 @@ const Resume: React.FC = () => {
                   <FaGraduationCap className="highlight-icon" />
                   <div>
                     <h4>Education</h4>
-                    <p>Computer Science & Engineering</p>
+                    <p>Information Technology</p>
                   </div>
                 </div>
                 <div className="highlight-item">
@@ -104,14 +104,14 @@ const Resume: React.FC = () => {
                 </li>
               </ul>
             </div>
-
             <div className="detail-section">
               <h3>Experience Highlights</h3>
               <ul className="experience-list">
-                <li>6-month internship at Tatvasoft</li>
-                <li>Built real-time web applications</li>
-                <li>Worked with modern tech stacks</li>
-                <li>Collaborated in agile development environment</li>
+                <li>Completed a 6-month internship at <strong>Tatvasoft</strong> as a Software Developer Intern</li>
+                <li>Developed real-time web applications using ASP.NET Core, SignalR, and the MERN stack</li>
+                <li>Participated in the Student Startup and Innovation Policy (SSIP) program with a tech-based solution</li>
+                <li>Gained hands-on experience in building scalable and interactive systems</li>
+                <li>Collaborated in an Agile development environment with cross-functional teams</li>
               </ul>
             </div>
           </div>

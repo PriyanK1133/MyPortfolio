@@ -7,7 +7,7 @@ const Projects: React.FC = () => {
     {
       id: 1,
       title: "StudyNotion",
-      description: "A comprehensive course management platform built with the MERN stack. Features include course creation, enrollment, progress tracking, and interactive learning modules.",
+      description: "StudyNotion is a feature-rich course management platform built with the MERN stack. It supports course creation, student enrollment, progress tracking, and interactive learning experiences, offering a seamless and engaging education workflow.",
       image: "/Screenshot 2025-07-05 111406.png",
       technologies: ["React", "Node.js", "MongoDB", "Express"],
       liveLink: "https://studynotion-lyart.vercel.app/",
@@ -16,8 +16,8 @@ const Projects: React.FC = () => {
     },
     {
       id: 2,
-      title: "Pizza Shop Management",
-      description: "Real-time pizza ordering and management system with live order tracking, inventory management, and customer notifications using SignalR.",
+      title: "PizzaShop",
+      description: "A full-featured pizza ordering and kitchen management system designed for real-time operations. Includes dynamic menu management, KOT (Kitchen Order Token) workflow, category-wise filtering, and status updates for order tracking. Built with a focus on usability, performance, and maintainable architecture.",
       image: "/1.png",
       technologies: ["ASP.NET Core", "SignalR", "PostgreSQL", "Angular"],
       liveLink: "#",
@@ -27,9 +27,9 @@ const Projects: React.FC = () => {
     {
       id: 3,
       title: "Real-Time Chat Application",
-      description: "Modern chat application with real-time messaging, user authentication, and responsive design. Built with Socket.io for instant communication.",
+      description: "A full-stack real-time chat application featuring secure user authentication, one-on-one messaging, real-time message delivery using Socket.io, and persistent chat history stored in a database. Includes typing indicators, active user status, and a responsive chat UI built with React.",
       image: "/Screenshot 2025-07-05 111543.png",
-      technologies: ["React", "Socket.io", "Node.js", "MongoDB"],
+      technologies: ["React", "Socket.io", "Node.js","Express.js", "MongoDB"],
       liveLink: "https://chat-app-4ua0.onrender.com/",
       githubLink: "https://github.com/PriyanK1133/Chat-App",
       featured: true
